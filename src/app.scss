@@ -79,17 +79,19 @@ main{
       flex-basis: 45%;
       justify-content: space-around;
 
-      button{
-        @include buttons;
-      }
-      .buttons{
-        display: flex;
-        align-items: center;
+      // button{
+      //   @include buttons;
+      // }
+      // .buttons{
+      //   display: flex;
+      //   align-items: center;
+      //
+      //   p{
+      //     margin: 0 15px;
+      //   }
+      // }
 
-        p{
-          margin: 0 15px;
-        }
-      }
+      @include schemaButtons;
     }
 
     .img-understand{
@@ -204,7 +206,32 @@ main{
   }
   // sections yourself
   .yourself{
-    
+    padding: 75px;
+    background-color: $backgroundColor;
+    .container{
+      align-items: center;
+      height: 650px;
+      justify-content: space-between;
+
+      h1{
+        font-size: 37px;
+        width: 500px;
+        text-align: center;
+      }
+      .lorem{
+        width: 600px;
+        padding: 30px;
+        background: white;
+        line-height: 1.5;
+        border-radius: 7px;
+      }
+
+      @include schemaButtons;
+
+      a{
+        @include p-small;
+      }
+    }
   }
 
 

@@ -1,3 +1,10 @@
+
+
+$color1: #58402c;
+$colorButtons: #30488f;
+$backgroundColor: #ffe7d2;
+
+
 @mixin debug {
   border: solid 1px;
 }
@@ -30,11 +37,6 @@
 }
 
 
-
-$color1: #58402c;
-$colorButtons: #30488f;
-$backgroundColor: #ffe7d2;
-
 @mixin buttons {
   width: 190px;
   height: 35px;
@@ -45,9 +47,21 @@ $backgroundColor: #ffe7d2;
   font-weight: 400;
   font-size: 13px;
 
-
-
   &:hover{
     cursor: pointer;
+  }
+}
+
+@mixin schemaButtons {
+  button{
+    @include buttons;
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+
+    p{
+      margin: 0 15px;
+    }
   }
 }
