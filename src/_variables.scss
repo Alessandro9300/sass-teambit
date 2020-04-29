@@ -2,10 +2,9 @@
   border: solid 1px;
 }
 
-
 @mixin p-large{
-  font-size: 25px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.8;
 }
 @mixin p-small{
   font-size: 13px;
@@ -22,6 +21,12 @@
 @mixin h2{
   font-size: 25px;
   line-height: 1.4;
+}
+
+@mixin linea{
+  color: rgba(0,0,0,.08);
+  margin: 50px 0;
+  border-radius: 100%;
 }
 
 

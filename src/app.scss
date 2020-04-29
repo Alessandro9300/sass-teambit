@@ -108,8 +108,7 @@ main{
     .column{
 
       hr{
-        color: rgba(0,0,0,.08);
-        margin: 50px 0;
+      @include linea;
 
       }
 
@@ -154,6 +153,53 @@ main{
         img{
           width: 300px;
         }
+      }
+    }
+  }
+  // section feedback
+  .feedback {
+
+    padding: 75px 0;
+
+    .feed-box{
+      display: flex;
+      margin: 50px 0;
+
+
+      .meta-feed-1{
+        padding: 30px;
+        flex-basis: 55%;
+
+        img{
+          width: 100%;
+        }
+      }
+
+      .meta-feed-2{
+        display: flex;
+        flex-basis: 45%;
+        .quarto-feed{
+          display: flex;
+          flex-direction: column;
+          flex-basis: 50%;
+          justify-content: space-around;
+
+          h2{
+            @include h2;
+          }
+
+          p{
+            @include p-large;
+          }
+
+          img{
+            width: 280px;
+          }
+        }
+      }
+
+      .reversed{
+        flex-direction: row-reverse;
       }
     }
   }

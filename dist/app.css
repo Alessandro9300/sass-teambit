@@ -18,6 +18,12 @@ a {
   margin: auto;
 }
 
+.container-2 {
+  width: 1600px;
+  display: flex;
+  margin: auto;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -147,6 +153,7 @@ main .traditional {
 main .traditional .column hr {
   color: rgba(0, 0, 0, 0.08);
   margin: 50px 0;
+  border-radius: 100%;
 }
 
 main .traditional .column .column {
@@ -185,5 +192,53 @@ main .traditional .column .column .imgs-trad .trad-boxes p {
 
 main .traditional .column .column img {
   width: 300px;
+}
+
+main .feedback {
+  padding: 75px 0;
+}
+
+main .feedback .feed-box {
+  display: flex;
+  margin: 50px 0;
+}
+
+main .feedback .feed-box .meta-feed-1 {
+  padding: 30px;
+  flex-basis: 55%;
+}
+
+main .feedback .feed-box .meta-feed-1 img {
+  width: 100%;
+}
+
+main .feedback .feed-box .meta-feed-2 {
+  display: flex;
+  flex-basis: 45%;
+}
+
+main .feedback .feed-box .meta-feed-2 .quarto-feed {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  justify-content: space-around;
+}
+
+main .feedback .feed-box .meta-feed-2 .quarto-feed h2 {
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+main .feedback .feed-box .meta-feed-2 .quarto-feed p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+main .feedback .feed-box .meta-feed-2 .quarto-feed img {
+  width: 280px;
+}
+
+main .feedback .feed-box .reversed {
+  flex-direction: row-reverse;
 }
 
