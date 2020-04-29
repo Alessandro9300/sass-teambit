@@ -13,6 +13,7 @@ header{
   position: fixed;
   height: 75px;
   box-shadow: 0 1px 1px 1px rgba(0,0,0,.08);
+  background: white;
 
   .header-nav{
     height: 100%;
@@ -66,12 +67,16 @@ header{
 }
 
 main{
+
   padding-top: 75px;
 
+  // section understand
   .understand{
-    padding-top: 75px;
-    .column{
 
+    padding: 75px 0;
+
+    .column{
+      flex-basis: 45%;
       justify-content: space-around;
 
       button{
@@ -87,13 +92,72 @@ main{
       }
     }
 
-  }
-
-  .img-understand{
-    img{
-      width: 100%;
+    .img-understand{
+      flex-basis: 55%;
+      padding: 30px;
+      img{
+        width: 100%;
+      }
     }
   }
+
+  // section traditional
+  .traditional{
+    padding: 75px 0;
+    background: $backgroundColor;
+    .column{
+
+      hr{
+        color: rgba(0,0,0,.08);
+        margin: 50px 0;
+
+      }
+
+      .column{
+
+        align-items: center;
+        height: 800px;
+        justify-content: space-around;
+
+
+        h2{
+          width: 630px;
+          text-align: center;
+        }
+
+        .imgs-trad{
+          display: flex;
+          flex-direction: row;
+          width: 700px;
+          justify-content: space-between;
+
+          .trad-boxes{
+            width: 180px;
+            text-align: center;
+
+
+            img{
+              width: 150px;
+
+            }
+
+            p{
+              margin-top: 20px;
+              width: 100%;
+              @include p-medium;
+            }
+
+          }
+
+        }
+
+        img{
+          width: 300px;
+        }
+      }
+    }
+  }
+
 
 
 

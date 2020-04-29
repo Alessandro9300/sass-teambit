@@ -3,16 +3,44 @@
 }
 
 
+@mixin p-large{
+  font-size: 25px;
+  line-height: 1.5;
+}
+@mixin p-small{
+  font-size: 13px;
+}
+@mixin p-medium{
+  font-size: 15px;
+  line-height: 1.6;
+}
+@mixin h1{
+  font-size: 45px;
+  line-height: 1.4;
+}
+
+@mixin h2{
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+
+
 $color1: #58402c;
 $colorButtons: #30488f;
+$backgroundColor: #ffe7d2;
 
 @mixin buttons {
-  width: 150px;
-  height: 30px;
-  border-radius: 10px;
+  width: 190px;
+  height: 35px;
+  border-radius: 7px;
   background: $colorButtons;
   border: none;
   color: white;
   font-weight: 400;
   font-size: 13px;
+
+  &:hover{
+    cursor: pointer;
+  }
 }

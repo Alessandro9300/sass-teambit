@@ -1,6 +1,7 @@
 
 @import "_variables.scss";
 
+
 body{
   font-family: arial;
   color: $color1;
@@ -27,11 +28,20 @@ a{
 }
 
 h1{
-  font-size: 50px;
+  font-size: 45px;
+  line-height: 1.4;
+}
+
+h2{
+  font-size: 25px;
   line-height: 1.4;
 }
 
 .p-large{
   font-size: 25px;
   line-height: 1.5;
+}
+
+.p-small{
+  font-size: 13px;
 }
