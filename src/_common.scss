@@ -3,6 +3,7 @@
 
 body{
   font-family: arial;
+  color: $color1;
 }
 
 ul {
@@ -23,4 +24,14 @@ a{
 .column{
   display: flex;
   flex-direction: column;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 1.4;
+}
+
+.p-large{
+  font-size: 25px;
+  line-height: 1.5;
 }

@@ -66,9 +66,33 @@ header{
 }
 
 main{
-  padding: 75px;
-  .understand{
+  padding-top: 75px;
 
+  .understand{
+    padding-top: 75px;
+    .column{
+
+      justify-content: space-around;
+
+      button{
+        @include buttons;
+      }
+      .buttons{
+        display: flex;
+        align-items: center;
+
+        p{
+          margin: 0 15px;
+        }
+      }
+    }
+
+  }
+
+  .img-understand{
+    img{
+      width: 100%;
+    }
   }
 
 
