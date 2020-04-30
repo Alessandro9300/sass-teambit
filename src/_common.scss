@@ -2,6 +2,12 @@
 @import "_variables.scss";
 
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body{
   font-family: arial;
   color: $color1;
@@ -29,11 +35,13 @@ a{
 
 }
 
-
 .column{
   display: flex;
   flex-direction: column;
 }
+
+
+// TODO: da sostuire con i mixin
 
 h1{
   font-size: 45px;

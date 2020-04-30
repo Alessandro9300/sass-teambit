@@ -5,6 +5,10 @@ $colorButtons: #30488f;
 $backgroundColor: #ffe7d2;
 
 
+@mixin padder {
+  padding: 75px 0;
+}
+
 @mixin debug {
   border: solid 1px;
 }
@@ -15,6 +19,7 @@ $backgroundColor: #ffe7d2;
 }
 @mixin p-small{
   font-size: 13px;
+  line-height: 1.5;
 }
 @mixin p-medium{
   font-size: 15px;

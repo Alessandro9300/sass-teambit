@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: arial;
   color: #58402c;
@@ -293,5 +299,31 @@ main .yourself .container .buttons p {
 
 main .yourself .container a {
   font-size: 13px;
+  line-height: 1.5;
+}
+
+footer {
+  padding: 75px 0;
+}
+
+footer .container {
+  justify-content: space-between;
+}
+
+footer .container .p-footer {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+footer .container span {
+  font-weight: 600;
+}
+
+footer .container ul li {
+  max-width: 180px;
+  margin: 15px 0;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
