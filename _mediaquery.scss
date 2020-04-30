@@ -1,0 +1,103 @@
+@import "_common";
+@import "_variables";
+
+
+@media screen and (max-width: 1400px){
+
+  .container{
+    width: 1000px;
+  }
+
+  .container-2{
+    width: 1200px;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+
+  // @mixin p-small{
+  //   font-size: 10px;
+  //   line-height: 1.5;
+  // }
+
+
+  main{
+
+    .understand{
+
+      h1{
+        line-height: 1;
+        font-size: 30px;
+      }
+
+      .p-large{
+        font-size: 20px;
+      }
+    }
+
+    .feedback{
+      .feed-box{
+        .meta-feed-2{
+          .quarto-feed{
+            h2{
+              font-size: 20px;
+              line-height: 1.1;
+            }
+            p{
+              font-size: 15px;
+              line-height: 1.4;
+            }
+            a{
+              font-size: 10px;
+            }
+
+            img{
+              width: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  footer{
+    .container{
+
+      .p-footer{
+
+        width: 140px;
+
+        p{
+          font-size: 14px;
+          line-height: 1.4;
+        }
+
+      }
+
+      ul li{
+
+        font-size: 11px;
+
+      }
+
+
+
+
+    }
+  }
+
+
+  .container{
+    width: 800px;
+  }
+
+  .container-2{
+    width: 1000px;
+  }
+
+
+
+
+}
