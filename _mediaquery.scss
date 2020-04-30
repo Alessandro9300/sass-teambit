@@ -12,15 +12,9 @@
     width: 1200px;
   }
 
-}
-
-@media screen and (max-width: 1000px){
-
-  // @mixin p-small{
-  //   font-size: 10px;
-  //   line-height: 1.5;
-  // }
-
+  header .header-nav{
+    width: 1000px;
+  }
 
   main{
 
@@ -64,30 +58,28 @@
 
   footer{
     .container{
-
       .p-footer{
-
         width: 140px;
-
         p{
           font-size: 14px;
           line-height: 1.4;
         }
-
       }
 
       ul li{
-
-        font-size: 11px;
-
+      font-size: 11px;
       }
-
-
-
-
     }
   }
 
+}
+
+@media screen and (max-width: 1000px){
+
+  header .header-nav{
+    width: 100%;
+    padding: 0 20px;
+  }
 
   .container{
     width: 800px;
@@ -96,8 +88,5 @@
   .container-2{
     width: 1000px;
   }
-
-
-
 
 }
