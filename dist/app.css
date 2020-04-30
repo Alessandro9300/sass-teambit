@@ -224,11 +224,6 @@ main .feedback .feed-box .meta-feed-2 .quarto-feed {
   justify-content: space-around;
 }
 
-main .feedback .feed-box .meta-feed-2 .quarto-feed h2 {
-  font-size: 25px;
-  line-height: 1.4;
-}
-
 main .feedback .feed-box .meta-feed-2 .quarto-feed p {
   font-size: 20px;
   line-height: 1.8;
@@ -265,6 +260,16 @@ main .yourself .container .lorem {
   background: white;
   line-height: 1.5;
   border-radius: 7px;
+  position: relative;
+  border: solid 1px #00000075;
+}
+
+main .yourself .container .lorem .quote {
+  position: absolute;
+  font-size: 38px;
+  top: -28px;
+  left: 0px;
+  color: #30488f;
 }
 
 main .yourself .container button {
