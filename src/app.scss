@@ -2,11 +2,6 @@
 @import "_variables";
 
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
 header{
   width: 100vw;
@@ -67,9 +62,7 @@ header{
 }
 
 main{
-
   padding-top: 75px;
-
   // section understand
   .understand{
 
@@ -78,20 +71,8 @@ main{
     .column{
       flex-basis: 45%;
       justify-content: space-around;
-
-      // button{
-      //   @include buttons;
-      // }
-      // .buttons{
-      //   display: flex;
-      //   align-items: center;
-      //
-      //   p{
-      //     margin: 0 15px;
-      //   }
-      // }
-
       @include schemaButtons;
+
     }
 
     .img-understand{
@@ -235,7 +216,7 @@ main{
   }
 
 }
-
+// footer
 footer{
   @include padder;
 
@@ -266,6 +247,25 @@ footer{
 
 
 
+  }
+
+}
+// button fixed
+.fixed{
+  @include buttons;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0px 0px 5px #0000ff8c;
+  font-size: 24px;
+  transition: all .1s;
+
+  &:active{
+    transform: scale(1.05)
   }
 
 }
