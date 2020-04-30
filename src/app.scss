@@ -1,8 +1,6 @@
 @import "_common";
 @import "_variables";
 
-
-
 header{
   width: 100vw;
   position: fixed;
@@ -33,7 +31,6 @@ header{
 
     .right-nav{
 
-
       ul{
         display: flex;
         align-items: center;
@@ -54,12 +51,9 @@ header{
               font-weight: 600;
             }
 
-
           }
 
-
         }
-
 
       }
     }
@@ -81,7 +75,6 @@ main{
       @include schemaButtons;
 
     }
-
     .img-understand{
       flex-basis: 55%;
       padding: 30px;
@@ -95,18 +88,14 @@ main{
     @include padder;
     background: $backgroundColor;
     .column{
-
       hr{
       @include linea;
-
       }
-
       .column{
 
         align-items: center;
         height: 800px;
         justify-content: space-around;
-
 
         h2{
           width: 630px;
@@ -114,6 +103,7 @@ main{
         }
 
         .imgs-trad{
+
           display: flex;
           flex-direction: row;
           width: 700px;
@@ -123,10 +113,8 @@ main{
             width: 180px;
             text-align: center;
 
-
             img{
               width: 150px;
-
             }
 
             p{
@@ -154,7 +142,6 @@ main{
       display: flex;
       margin: 50px 0;
 
-
       .meta-feed-1{
         padding: 30px;
         flex-basis: 55%;
@@ -165,14 +152,15 @@ main{
       }
 
       .meta-feed-2{
+
         display: flex;
         flex-basis: 45%;
         .quarto-feed{
+
           display: flex;
           flex-direction: column;
           flex-basis: 50%;
           justify-content: space-around;
-
 
           p{
             @include p-large;
@@ -191,9 +179,12 @@ main{
   }
   // sections yourself
   .yourself{
+
     padding: 75px;
     background-color: $backgroundColor;
+
     .container{
+
       align-items: center;
       height: 650px;
       justify-content: space-between;
@@ -203,6 +194,7 @@ main{
         width: 500px;
         text-align: center;
       }
+
       .lorem{
         width: 600px;
         padding: 30px;
@@ -235,11 +227,9 @@ main{
 footer{
   @include padder;
 
-
-
   .container{
 
-      justify-content: space-between;
+    justify-content: space-between;
 
     .p-footer{
       font-size: 17px;
@@ -260,13 +250,12 @@ footer{
       }
     }
 
-
-
   }
 
 }
 // button fixed
 .fixed{
+
   @include buttons;
 
   width: 60px;
